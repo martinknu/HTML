@@ -1,7 +1,7 @@
 
 :root{
-    --headerFloatWidth: 90px;
-    --headerFloatMargin: 5px;
+    --headerFloatWidth: 80px;
+    --headerFloatMargin: 4px;
     --itemsInFloat: 2;
 }
 
@@ -46,5 +46,5 @@ body{
 }
 
 .center_in_navigation:hover{ 
-    transform: scale(1.06);
+    transform: scale(1.02%);
 }
