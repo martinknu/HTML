@@ -12,6 +12,11 @@ body{
     margin: auto;
 }
 
+/* Spacer above container*/
+.spacer{
+    height: 200px;
+}
+
 /* Flex container */
 #container {
     width: 100%;
@@ -24,27 +29,28 @@ body{
 .mainframe{
     width: 500px;
     height: 80%;
-
 }
 
 .navigation{
-
     border: 1px solid red;
     padding: 5px;
     height: var(--headerFloatWidth);
-    width: calc((var(--headerFloatWidth) * var(--itemsInFloat))+ (var(--headerFloatMargin) *2));
+    width: calc((var(--headerFloatWidth) * var(--itemsInFloat)));
 }
 
 
-
 .center_in_navigation{
-
     border: 1px solid blue;    
-    height: var(--headerFloatWidth);
-    width: calc((var(--headerFloatWidth) * var(--itemsInFloat))+ (var(--headerFloatMargin) *2));
+    height: calc(var(--headerFloatWidth)- (var(--headerFloatMargin) *2));
+    width: calc((var(--headerFloatWidth) * var(--itemsInFloat))- (var(--headerFloatMargin) *2));
 
 }
 
 .center_in_navigation:hover{ 
-    transform: scale(1.00819672131, 1.02);
+ 
+    transform: scale(1.05, 1.0);
+ 
+/*   transform: scale(calc((var(--headerFloatWidth) * var(--itemsInFloat)) / (var(--headerFloatWidth) * var(--itemsInFloat))- (var(--headerFloatMargin) *2)), 1.0);
+*/
+
 }
