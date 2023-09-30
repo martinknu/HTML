@@ -21,7 +21,7 @@
             <div class="mainframe">
                 <div class="navigation">
             
-                    <div class="center_in_navigation"> text in center
+                    <div class="center_in_navigation" id="this_is_the_center"> text in center
             
             
                     </div>
@@ -29,7 +29,25 @@
             
             </div>
         </div>
+        <div id="center_in_navigation_w">width: </div>
+        <div id="center_in_navigation_h">height: </div>
+
+        <hr>
+
+        <p> The .highlight CSS is added to the div change_div when window loaded the CSS will change color to red </p>
+        <div id="change_div"> Text to manipulate </div>
+        <hr>
         
-        <script src="" async defer></script>
+        <p> When button is clicked a text shows that is has been clicked </p>
+        <button onclick="myFunction()">Click me</button>
+        <p id="demo_p_001"> </p>
+        <hr>
+        
+        <p> When button is clicked a text shows that is has been clicked, this is done with event listener </p>
+        <button id="btn002">Click me</button>
+        <p id="demo_p_002"> </p>
+
+
+        <script src="javascript.js" async defer></script>
     </body>
 </html>
