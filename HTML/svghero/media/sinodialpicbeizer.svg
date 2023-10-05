@@ -1,0 +1,5 @@
+<svg height="100%" width="100%" viewBox="0 0 100 100"  preserveAspectRatio="none"
+xmlns="http://www.w3.org/2000/svg">
+<path d="M 0 70 C 16 70, 33 70, 50 50 L 50, 100, 0, 100 " fill="rgb(255,255,255)" stroke="rgb(255,255,255)" />
+<path d="M 50 50 C 66 30, 83 30, 100 30 L 100, 100, 50, 100 " fill="rgb(255,255,255)" stroke="rgb(255,255,255)" />
+</svg>
