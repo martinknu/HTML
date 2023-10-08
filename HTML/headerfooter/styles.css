@@ -1,0 +1,12 @@
+.footer_content{
+
+    flex-basis: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+}
+
+
+.footer{
+    margin-bottom: 10px;
+}
