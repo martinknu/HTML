@@ -16,7 +16,7 @@
 
     <template id="header">
 
-        <div class="header">
+        <div class="header_container">
     
         <!-- Header content here -->
             <hr>
@@ -28,13 +28,16 @@
 
 
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <div id="pagecontainer">
+            <div id="headerinsertpoint">
+                <div>first element</div>
+            </div>
 
-    <div>
-        This is the page body, hope to see header and footer here.
-    </div>
+            <div>
+                This is the page body, hope to see header and footer here.
+            </div>
+
+        </div>
         
         <script src="javascript.js" async defer></script>
     </body>
